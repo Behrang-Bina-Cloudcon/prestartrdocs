@@ -1,6 +1,7 @@
 # Prestartr User Documentation
 
 ## Table of Contents
+
 1. [Introduction](#introduction)
 2. [System Overview](#system-overview)
 3. [Module Descriptions](#module-descriptions)
@@ -159,6 +160,7 @@ graph TD
 ```
 
 ### User Interaction Flow
+
 ```mermaid
 sequenceDiagram
     participant User
@@ -179,6 +181,7 @@ sequenceDiagram
 ```
 
 ### Data Flow Diagram
+
 ```mermaid
 graph LR
     A[User Input] --> B[Forms Module]
@@ -190,6 +193,7 @@ graph LR
 ```
 
 ### Module Dependencies
+
 ```mermaid
 graph TD
     A[Core Modules] --> B[People]
@@ -245,12 +249,14 @@ graph TD
 ## Troubleshooting
 
 ### Common Issues
+
 1. Login problems
 2. Slow performance
 3. Missing data
 4. Error messages
 
 ### Solutions
+
 1. Clear browser cache
 2. Check internet connection
 3. Contact system administrator
@@ -259,6 +265,7 @@ graph TD
 ## Support
 
 For additional support:
+
 - Contact your system administrator
 - Refer to the Knowledge Base
-- Submit a support ticket 
+- Submit a support ticket
