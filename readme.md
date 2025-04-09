@@ -90,6 +90,7 @@ flowchart TD
 ```
 
 ### User Authentication Flow
+
 ```mermaid
 sequenceDiagram
     actor User
@@ -106,6 +107,7 @@ sequenceDiagram
 ```
 
 ### Data Flow
+
 ```mermaid
 flowchart LR
     A[User Input] --> B[Forms Module]
@@ -120,11 +122,13 @@ flowchart LR
 ## Legend
 
 ### Node Types
+
 - Core Modules: Main system components
 - Supporting Modules: Additional functionality
 - Integration Points: Connection points between modules
 
 ### Connection Types
+
 --> Direct dependency
 -.- Optional dependency
 --- Bidirectional interaction
